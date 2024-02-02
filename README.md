@@ -1,2 +1,2 @@
 # pyAPL
-The APL impermeant in Python with ChatGPT.
+The APL impermeant in Python. Made by Khoai-1234.
