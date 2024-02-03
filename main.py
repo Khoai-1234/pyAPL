@@ -48,3 +48,17 @@ class pyAPL:
             return numpy.log(numpy.e,number1)
         else:
             return numpy.log(number1,number2)
+    def min(number1,number2):
+        if number2 == '':
+            # Floor
+            return numpy.floor(number1)
+        else:
+            # Minium
+            return numpy.min(number1,number2)
+    def max(number1,number2):
+        if number2 == '':
+            # Ceiling
+            return numpy.ceil(number1)
+        else:
+            # Maxium
+            return numpy.max(number1,number2)
